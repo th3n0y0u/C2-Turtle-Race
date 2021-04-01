@@ -25,9 +25,9 @@ def drawTrack(length):
     cameraMan.write(" ")
     # Drawing the Line
     cameraMan.right(90)
-    cameraMan.forward(200)
+    cameraMan.forward(250)
     cameraMan.right(180)
-    cameraMan.forward(200)
+    cameraMan.forward(250)
     # Return
     cameraMan.penup()
     cameraMan.right(90)
@@ -66,7 +66,7 @@ def createTurtles():
 
   gold.shape("turtle")
   gold.penup()
-  gold.goto(-200, -40)
+  gold.goto(-200, -60)
   gold.color("gray")
 
   blue.penup()
